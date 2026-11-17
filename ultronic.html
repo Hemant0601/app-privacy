@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ultronic Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Ultronic Android app (com.hemant.ultronic).">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1c1c1f;
+    --muted: #55555c;
+    --rule: #e3e3e8;
+    --head: #f4f4f7;
+    --link: #3b4fd8;
+    --code: #f0f0f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f0f12;
+      --text: #ececf0;
+      --muted: #a8a8b3;
+      --rule: #2b2b33;
+      --head: #18181d;
+      --link: #9aa8ff;
+      --code: #1d1d24;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 8px; }
+  h2 { font-size: 1.3rem; margin: 2.2em 0 0.6em; padding-top: 0.6em; border-top: 1px solid var(--rule); }
+  p, ul { margin: 0 0 1em; }
+  li { margin: 0.35em 0; }
+  a { color: var(--link); }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.88em;
+    background: var(--code);
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    overflow-wrap: anywhere;
+  }
+  .table-wrap { overflow-x: auto; margin: 0 0 1.2em; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border: 1px solid var(--rule); }
+  th { background: var(--head); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1 id="ultronic-privacy-policy">Ultronic Privacy Policy</h1>
+<p><strong>Effective date: 17 November 2026</strong></p>
+<p>This policy explains what the Ultronic Android app (package name <code>com.hemant.ultronic</code>) does with your information. It covers both versions of the app:</p>
+<ul>
+<li><strong>The Google Play version.</strong> It has no SMS access.</li>
+<li><strong>The SMS version</strong>, distributed as an APK file outside Google Play. It can read bank and card text messages if you switch that on.</li>
+</ul>
+<h2 id="in-short">In short</h2>
+<ul>
+<li><strong>Ultronic cannot send your information over the internet.</strong> It does not request Android's internet permission, so it cannot send anything to me or to anyone else. Your information leaves the app only when you choose to export it or move to a new phone (see <a href="#sharing">Sharing</a>).</li>
+<li><strong>No account, no ads, no analytics.</strong> There is no tracking, and no third-party code that collects data.</li>
+<li><strong>Your information stays on your phone.</strong> Ultronic keeps it in the app's own private storage until you delete it or uninstall the app.</li>
+<li><strong>Speech is the one exception to check.</strong> Your phone's speech recognition service turns what you say into text. Depending on your phone and its settings, that service may process the audio on its own servers. Ultronic never saves or sends audio itself. Details are in <a href="#microphone-and-speech">Microphone and speech</a>.</li>
+</ul>
+<h2 id="who-is-responsible">Who is responsible</h2>
+<p>Ultronic is made by Hemant Kumar, an individual developer ("I", "me" in this policy).</p>
+<p>Contact: <strong>hemantkumar0601@gmail.com</strong></p>
+<h2 id="what-ultronic-stores-on-your-phone">What Ultronic stores on your phone</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Information</th>
+<th>When Ultronic stores it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Reminders:</strong> the text, the date and time, the repeat rule, the priority, and when each one was done, snoozed or nudged</td>
+<td>When you create a reminder, by voice or by typing</td>
+</tr>
+<tr>
+<td><strong>Background-listening inbox:</strong> the words after your wake phrase, plus the full sentence they were heard in</td>
+<td>Only while "Listen in the background" is on, and only for speech that contains your wake phrase. Each item stays until you review or dismiss it.</td>
+</tr>
+<tr>
+<td><strong>Money entries:</strong> the amount, whether you spent or received it, the merchant or payer name you give, the category and the date</td>
+<td>When you add a spend or an income, by voice or by hand</td>
+</tr>
+<tr>
+<td><strong>Budgets and categories:</strong> your monthly budget, category limits, and any custom categories and their keywords</td>
+<td>When you set them</td>
+</tr>
+<tr>
+<td><strong>Settings:</strong> your wake phrase, quiet hours, digest times, theme and similar preferences</td>
+<td>When you change them</td>
+</tr>
+<tr>
+<td><strong>SMS version only: bank, card and bill messages.</strong> See <a href="#sms-sms-version-only">SMS</a>.</td>
+<td>Only after you switch on expense tracking</td>
+</tr>
+</tbody>
+</table></div>
+<p>All of this is stored in Ultronic's private app storage, which other apps cannot read. Ultronic does not add its own encryption. It relies on Android's app sandbox, and on the storage encryption your phone applies when it has a screen lock.</p>
+<h2 id="microphone-and-speech">Microphone and speech</h2>
+<p><strong>When the microphone is used.</strong> Ultronic uses the microphone only in these two situations:</p>
+<ul>
+<li><strong>You tap the mic.</strong> It listens while the capture screen is open.</li>
+<li><strong>You switch on "Listen in the background".</strong> This is off until you turn it on. While it is on:<ul>
+<li>Ultronic keeps listening for your wake phrase, even when the app is closed;</li>
+<li>a notification with a <strong>Stop</strong> button stays visible the whole time;</li>
+<li>on Android 12 and later, Android also shows its own microphone indicator.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Ultronic never records audio to a file and never sends audio anywhere.</strong></p>
+<p><strong>How speech becomes text.</strong> Ultronic uses Android's standard speech recognition service.</p>
+<ul>
+<li><strong>Ultronic asks for offline recognition.</strong> On Android 13 and later, when an offline speech model is available, it uses the recogniser on the phone.</li>
+<li><strong>Otherwise, your phone's default speech service does the work.</strong> This happens on Android 12 and earlier, or when no offline model is installed. On most phones that service is Google's, and it may send the audio to its provider's servers to transcribe it. That processing is covered by the speech service provider's privacy policy, not by this one.</li>
+<li><strong>To keep speech on the phone,</strong> install the offline speech pack for your language in your phone's speech or Google app settings, or type instead of speaking. The capture screen has a Type option.</li>
+</ul>
+<p><strong>What Ultronic receives is text.</strong> In background listening, any text without your wake phrase is thrown away at once. Text with the wake phrase is kept as an inbox item (see the table above).</p>
+<h2 id="sms-sms-version-only">SMS (SMS version only)</h2>
+<p><strong>The Google Play version of Ultronic has no SMS permission and cannot read your messages.</strong></p>
+<p>The SMS version reads messages only after you switch on expense tracking. Once it is on:</p>
+<ul>
+<li><strong>What it reads.</strong><ul>
+<li>Messages already in your inbox: from the start of the current month on the first scan, and earlier months only if you ask.</li>
+<li>New messages as they arrive.</li>
+</ul>
+</li>
+<li><strong>What it ignores.</strong><ul>
+<li>One-time-password messages are skipped.</li>
+<li>New messages that do not look like bank, card or bill messages are dropped and never saved.</li>
+</ul>
+</li>
+<li>
+<p><strong>What it keeps for each money message.</strong> For each bank, card or bill message that becomes an entry or a bill, it keeps:</p>
+<ul>
+<li>the text of that message;</li>
+<li>the details it reads from it: amount, merchant, the account or card ending as written in the message, bank, and date.</li>
+</ul>
+<p>The sender's number is held only until the message is processed. The ledger does not keep it.</p>
+</li>
+<li>
+<p><strong>Removed entries.</strong> If you remove a single entry that came from a message, Ultronic keeps that message's text in a "removed" list. This stops a later scan from adding it back. "Clear expense data" and "Delete all data" also delete that list.</p>
+</li>
+<li><strong>Nothing is uploaded or shared.</strong> Messages are read and processed only on your phone.</li>
+<li><strong>You can stop at any time.</strong> Switch tracking off in Settings &gt; Expense tracking. "Clear expense data" deletes the ledger.</li>
+</ul>
+<h2 id="permissions-and-why-ultronic-asks-for-them">Permissions and why Ultronic asks for them</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Why</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Microphone (<code>RECORD_AUDIO</code>)</td>
+<td>To hear you when you tap the mic, or while background listening is on</td>
+<td>Both</td>
+</tr>
+<tr>
+<td>Foreground service, microphone type</td>
+<td>To keep background listening running, with its notification and Stop button</td>
+<td>Both</td>
+</tr>
+<tr>
+<td>Notifications (<code>POST_NOTIFICATIONS</code>)</td>
+<td>To show reminders, nudges, the listening notification and "Caught that" confirmations</td>
+<td>Both</td>
+</tr>
+<tr>
+<td>Alarms &amp; reminders (<code>SCHEDULE_EXACT_ALARM</code> or <code>USE_EXACT_ALARM</code>)</td>
+<td>So reminders fire at the minute you asked for</td>
+<td>Both</td>
+</tr>
+<tr>
+<td>Run at startup (<code>RECEIVE_BOOT_COMPLETED</code>)</td>
+<td>To restore reminders after a restart, an app update or a clock change. If background listening was on, it also offers to turn it back on.</td>
+<td>Both</td>
+</tr>
+<tr>
+<td>Vibrate, keep awake (<code>VIBRATE</code>, <code>WAKE_LOCK</code>)</td>
+<td>To vibrate for reminders and finish scheduling them while the phone is asleep</td>
+<td>Both</td>
+</tr>
+<tr>
+<td>Battery optimisation</td>
+<td>To open Android's battery settings, so you can let background listening keep running. Some versions can show Android's direct "allow" prompt.</td>
+<td>Both</td>
+</tr>
+<tr>
+<td>SMS (<code>READ_SMS</code>, <code>RECEIVE_SMS</code>)</td>
+<td>To build your expense ledger from bank, card and bill messages</td>
+<td>SMS version only</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ultronic does not request the internet permission, your location, your contacts, your photos or your files.</p>
+<h2 id="sharing">Sharing</h2>
+<p><strong>I do not receive your information, so I cannot sell it, rent it or share it.</strong> Ultronic has no third-party services built in: no advertising, analytics, crash reporting or cloud sync.</p>
+<p>Your information can leave Ultronic in only two ways, and you start both of them:</p>
+<ul>
+<li><strong>Export.</strong> Settings &gt; Your data &gt; "Export all data" creates a text copy of your reminders, settings and money data. In the SMS version, this includes the saved message texts. Ultronic hands the copy to the app you pick in Android's share sheet, and what happens next depends on that app.</li>
+<li><strong>Moving to a new phone.</strong> If you use Android's phone-to-phone transfer while setting up a new phone, Android may copy Ultronic's data directly to the new phone. Ultronic excludes its data from Android's cloud backup.</li>
+</ul>
+<h2 id="keeping-and-deleting-your-information">Keeping and deleting your information</h2>
+<p>Ultronic keeps your information until you delete it. You can delete it in any of these ways:</p>
+<ul>
+<li><strong>One item at a time.</strong> Delete single reminders, or remove single money entries, inside the app.</li>
+<li>
+<p><strong>Everything at once, from Settings.</strong> Settings &gt; Your data &gt; "Delete all data" deletes, in one step:</p>
+<ul>
+<li>all reminders;</li>
+<li>the background-listening inbox;</li>
+<li>all money data: entries, bills, budgets and categories.</li>
+</ul>
+<p>Your preferences, such as the wake phrase and theme, are kept.</p>
+</li>
+<li>
+<p><strong>SMS version only.</strong> Settings &gt; Expense tracking &gt; "Clear expense data" deletes the ledger and detected bills.</p>
+</li>
+<li><strong>From Android.</strong> Android Settings &gt; Apps &gt; Ultronic &gt; Storage &gt; Clear storage deletes everything Ultronic has stored.</li>
+<li><strong>Uninstalling Ultronic</strong> deletes everything. No copy is kept anywhere else.</li>
+</ul>
+<p>I never receive your information, so I cannot see, correct or delete it for you, and there is nothing for me to delete on request. You control it on your phone.</p>
+<h2 id="children">Children</h2>
+<p>Ultronic is meant for adults (18 and over). It is not directed at children. Ultronic collects no personal information from anyone, including children.</p>
+<h2 id="security">Security</h2>
+<ul>
+<li><strong>Storage.</strong> Your information is kept in Ultronic's private storage on your phone and protected by Android's app sandbox.</li>
+<li><strong>Screen lock.</strong> Use a screen lock. Anyone who can unlock your phone can open Ultronic and see your reminders and money data.</li>
+</ul>
+<h2 id="changes-to-this-policy">Changes to this policy</h2>
+<ul>
+<li><strong>Where changes appear.</strong> If this policy changes, the new version will be posted at this address with a new effective date.</li>
+<li><strong>If Ultronic ever sends data off the phone.</strong> If a future version of Ultronic ever sends information off your phone, this policy will be updated before that version is released.</li>
+</ul>
+<h2 id="contact">Contact</h2>
+<p>Questions or concerns: <strong>hemantkumar0601@gmail.com</strong></p>
+<footer>Ultronic Privacy Policy &middot; effective 17 November 2026</footer>
+</main>
+</body>
+</html>
